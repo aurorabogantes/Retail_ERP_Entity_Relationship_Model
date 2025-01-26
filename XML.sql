@@ -9,7 +9,7 @@ Select Top 3
 	,F.idTipo_pago tipo_pago
 	,F.Promociones_descuentos_Producto_idProducto promociones_descuentos
 	,F.idEstado estado
-	,DE.otras_señas otras_señas
+	,DE.otras_seÃ±as otras_seÃ±as
 	,DE.Distrito_idDistrito distrito
 	,DE.Distrito_Canton_idCanton canton
 	,DE.Distrito_Canton_Provincia_idProvincia provincia
@@ -34,7 +34,7 @@ Group By P.idPersona
 	,F.idTipo_pago
 	,F.Promociones_descuentos_Producto_idProducto
 	,F.idEstado
-	,DE.otras_señas
+	,DE.otras_seÃ±as
 	,DE.Distrito_idDistrito
 	,DE.Distrito_Canton_idCanton
 	,DE.Distrito_Canton_Provincia_idProvincia
