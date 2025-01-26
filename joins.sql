@@ -13,4 +13,4 @@ FROM persona P
 JOIN factura F ON P.idPersona = F.idPersona
 JOIN factura_detalle FD ON F.idFactura = FD.idFactura
 GROUP BY P.idPersona, F.Fecha_emision, F.idFactura, P.Nombre, P.Apellido1
-ORDER BY F.Fecha_emision, P.Nombre, P.Apellido1;
+ORDER BY F.Fecha_emision, P.Nombre,Â P.Apellido1;
